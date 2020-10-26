@@ -50,7 +50,7 @@
                         <v-card-actions>
                             <v-spacer>
                             </v-spacer>
-                            <v-btn  @click.prevent="login()">
+                            <v-btn @click.prevent="login()" style="color: #020562">
                                 CONTINUAR
                                 <v-icon>arrow_forward</v-icon>
                             </v-btn>

@@ -54,7 +54,7 @@
                         <v-card-actions>
                             <v-spacer>
                             </v-spacer>
-                            <v-btn  @click.prevent="registro()">
+                            <v-btn  @click.prevent="registro()" style="color: #020562">
                                 REGISTRARME
                                 <v-icon>arrow_forward</v-icon>
                             </v-btn>

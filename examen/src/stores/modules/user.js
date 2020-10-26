@@ -72,6 +72,14 @@ export default {
                     reject(error);
                 })
             })
+        },
+        LOGOUT:  ({commit}) => {
+            return new Promise((resolve) => {
+                commit('logout');
+                localStorage.removeItem('token');
+                delete axios.defaults.headers.common['Authorization']
+                resolve(true);
+            })
         }
 
     }
